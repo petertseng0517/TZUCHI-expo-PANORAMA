@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360° VR Tour_台灣醫療科技館(花蓮慈濟醫院)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum/build/pannellum.css">
+    <script src="https://cdn.jsdelivr.net/npm/pannellum/build/pannellum.js"></script>
+    <link rel="stylesheet" href="css/styles-expo2024.css">       
+
+
+
+</head>
+<body>
+    <div id="panorama" style="width: 100%; height: 100vh;">
+    </div>
+
+    <!-- JavaScript 放在 body 結束標籤之前 -->
+    <script>
+        // 使用 fetch 加載 config.json
+        fetch('config-expo2024.json')
+            .then(response => response.json())
+            .then(config => {
+                pannellum.viewer('panorama', config);
+
+            })
+            .catch(error => {
+                console.error("Error loading config-expo2024.json:", error);
+            });
+    </script>
+</body>
+</html>
