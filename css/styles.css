@@ -1,0 +1,49 @@
+ /* 自定義熱點容器 */
+ .custom-info-hotspot .custom-yt-hotspot {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* 圖片樣式 */
+.hotspot-image {
+    width: auto;                 /* 保持寬高比例 */
+    max-width: 90vw;             /* 圖片最大寬度為視窗寬度的 90% */
+    max-height:0vh;            /* 圖片最大高度為視窗高度的 90% */
+    position: fixed;             /* 固定定位，保持在視窗中央 */
+    top: 50%;                    /* 垂直居中 */
+    left: 50%;                   /* 水平居中 */
+    transform: translate(-50%, -50%); /* 讓圖片的中心點對齊視窗的中心 */
+    z-index: 10;                 /* 確保圖片顯示在其他元素之上 */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* 添加陰影讓圖片更突出 */
+    border-radius: 8px;          /* 可選：添加圓角 */
+}
+
+
+
+/* 響應式設計：當螢幕寬度小於某個數值時，調整圖片的最大寬度 */
+@media (max-width: 400px) {
+.hotspot-image {
+    max-width: 85%; /* 在手機上，將最大寬度設為90%螢幕寬度 */
+    z-index: -1;  /* 確保圖片顯示在熱點上方 */
+}
+}
+
+
+
+/* 定義箭頭方向，備而不用*/
+.left-curse {
+    visibility: visible;
+    transform: translate(443.654px, 309.388px) translateZ(9999px) rotate(90deg) !important; /* 加入 !important */
+    background-position: 0 -130px;
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+    border-radius: 23px;
+    position: absolute;
+    vertical-align: middle;
+    top: 0;
+    z-index: 1;
+    background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%22208%22%3E%0A%3Ccircle%20fill-opacity%3D%22.78%22%20cy%3D%22117%22%20cx%3D%2213%22%20r%3D%2211%22%20fill%3D%22%23fff%22%2F%3E%0A%3Ccircle%20fill-opacity%3D%22.78%22%20cy%3D%22143%22%20cx%3D%2213%22%20r%3D%2211%22%20fill%3D%22%23fff%22%2F%3E%0A%3Ccircle%20cy%3D%22169%22%20cx%3D%2213%22%20r%3D%227%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cy%3D%22195%22%20cx%3D%2213%22%20r%3D%227%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%2F%3E%0A%3Ccircle%20cx%3D%2213%22%20cy%3D%22195%22%20r%3D%222.5%22%2F%3E%0A%3Cpath%20d%3D%22m5%2083v6h2v-4h4v-2zm10%200v2h4v4h2v-6zm-5%205v6h6v-6zm-5%205v6h6v-2h-4v-4zm14%200v4h-4v2h6v-6z%22%2F%3E%0A%3Cpath%20d%3D%22m13%20110a7%207%200%200%200%20-7%207%207%207%200%200%200%207%207%207%207%200%200%200%207%20-7%207%207%200%200%200%20-7%20-7zm-1%203h2v2h-2zm0%203h2v5h-2z%22%2F%3E%0A%3Cpath%20d%3D%22m5%2057v6h2v-4h4v-2zm10%200v2h4v4h2v-6zm-10%2010v6h6v-2h-4v-4zm14%200v4h-4v2h6v-6z%22%2F%3E%0A%3Cpath%20d%3D%22m17%2038v2h-8v-2z%22%2F%3E%0A%3Cpath%20d%3D%22m12%209v3h-3v2h3v3h2v-3h3v-2h-3v-3z%22%2F%3E%0A%3Cpath%20d%3D%22m13%20136-6.125%206.125h4.375v7.875h3.5v-7.875h4.375z%22%2F%3E%0A%3Cpath%20d%3D%22m10.428%20173.33v-5.77l5-2.89v5.77zm1-1.73%203-1.73-3.001-1.74z%22%2F%3E%0A%3C%2Fsvg%3E%0A);
+}

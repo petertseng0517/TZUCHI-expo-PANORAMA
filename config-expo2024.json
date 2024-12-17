@@ -1,0 +1,333 @@
+{
+    "default": {
+        "firstScene": "scene1",
+        "author": "花蓮慈濟醫院公傳室",
+        "autoLoad": true,
+        "autoRotate":-1       
+    },
+    "scenes": {
+        "scene1": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi01.jpg",
+            "title": "台灣醫療科技展_慈濟展區",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -10,
+                    "yaw": 175,
+                    "type": "info",
+                    "text": "歡迎到花蓮慈濟醫院展區<img src='expo2024/20241207.jpg'>"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 205,
+                    "type": "scene",
+                    "text": "進入展區",
+                    "sceneId": "scene2"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": 183,
+                    "type": "url",
+                    "text": "回到活動官網",
+                    "URL": "https://hlm.tzuchi.com.tw/home/index.php/expo"
+                }
+            ]
+        },
+        "scene2": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi02.jpg",
+            "title": "台灣醫療科技展_慈濟展區2",
+            "pitch":-5,
+            "yaw":160,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 205,
+                    "type": "scene",
+                    "text": "scene4",
+                    "sceneId": "scene4"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": -230,
+                    "type": "scene",
+                    "text": "scene5",
+                    "sceneId": "scene5"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": -240,
+                    "type": "scene",
+                    "text": "scene6",
+                    "sceneId": "scene6"
+                }
+                
+            ]
+        },
+        "scene3": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi03.jpg",
+            "title": "台灣醫療科技展_慈濟展區3",
+            "yaw":180,
+            "pitch":10,
+            "hotSpots": [
+                
+            ]
+        },
+        "scene4": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi04.jpg",
+            "title": "台灣醫療科技展_慈濟展區4",
+            "pitch": 0,
+            "yaw": 170,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": 85,
+                    "type": "scene",
+                    "text": "scene2",
+                    "sceneId": "scene2"
+                }
+               
+            ]
+        },
+        "scene5": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi05.jpg",
+            "title": "台灣醫療科技展_慈濟展區5",
+            "pitch":-5,
+            "yaw":180,
+            "hotSpots": [
+                
+                {
+                    "pitch": -25,
+                    "yaw": -130,
+                    "type": "scene",
+                    "text": "scene7",
+                    "sceneId": "scene7"
+                },
+                {
+                    "pitch": -25,
+                    "yaw": -225,
+                    "type": "scene",
+                    "text": "scene12",
+                    "sceneId": "scene12"
+                }
+            ]
+        },
+        "scene6": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi06.jpg",
+            "title": "台灣醫療科技展_慈濟展區6",
+            "pitch":5,
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": -120,
+                    "type": "scene",
+                    "text": "scene2",
+                    "sceneId": "scene2"
+                }
+                
+            ]
+        },
+        "scene7": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi07.jpg",
+            "title": "台灣醫療科技展_慈濟展區7",
+            "yaw":-70,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": -90,
+                    "type": "scene",
+                    "text": "scene8",
+                    "sceneId": "scene8"
+                },
+                {
+                    "pitch": -30,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "scene5",
+                    "sceneId": "scene5"
+                }
+                
+            ]
+        },
+        "scene8": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi08.jpg",
+            "title": "台灣醫療科技展_慈濟展區8",
+            "yaw":180,
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": -180,
+                    "type": "scene",
+                    "text": "scene9",
+                    "sceneId": "scene9"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "scene7",
+                    "sceneId": "scene7"
+                }
+                
+            ]
+        },
+        "scene9": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi09.jpg",
+            "title": "台灣醫療科技展_慈濟展區9",
+            "yaw":120,
+            "pitch":5,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 150,
+                    "type": "scene",
+                    "text": "scene8",
+                    "sceneId": "scene8"
+                }
+                
+            ]
+        },
+        "scene10": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi10.jpg",
+            "title": "台灣醫療科技展_慈濟展區10",
+            "yaw":-100,
+            "hotSpots": [
+                
+                {
+                    "pitch": -20,
+                    "yaw": -130,
+                    "type": "scene",
+                    "text": "scene12",
+                    "sceneId": "scene12"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": -80,
+                    "type": "scene",
+                    "text": "scene13",
+                    "sceneId": "scene13"
+                }
+                
+            ]
+        },
+        "scene11": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi11.jpg",
+            "title": "台灣醫療科技展_慈濟展區11",
+            "hotSpots": [
+                
+            ]
+        },
+        "scene12": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi12.jpg",
+            "title": "台灣醫療科技展_慈濟展區12",
+            "hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": -10,
+                    "type": "scene",
+                    "text": "scene10",
+                    "sceneId": "scene10"
+                }
+                
+            ]
+        },
+        "scene13": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi13.jpg",
+            "title": "台灣醫療科技展_慈濟展區13",
+            "yaw":-115,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -93,
+                    "type": "scene",
+                    "text": "scene14",
+                    "sceneId": "scene14"
+                }
+                
+            ]
+        },
+        "scene14": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi14.jpg",
+            "title": "台灣醫療科技展_慈濟展區14",
+            "yaw":-180,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -180,
+                    "type": "scene",
+                    "text": "scene15",
+                    "sceneId": "scene15"
+                },
+                {
+                    "pitch": -20,
+                    "yaw": -160,
+                    "type": "scene",
+                    "text": "scene17",
+                    "sceneId": "scene17"
+                }
+                
+            ]
+        },
+        "scene15": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi15.jpg",
+            "title": "台灣醫療科技展_慈濟展區15",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -10,
+                    "type": "scene",
+                    "text": "scene16",
+                    "sceneId": "scene16"
+                }
+                
+            ]
+        },
+        "scene16": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi16.jpg",
+            "title": "台灣醫療科技展_慈濟展區16",
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -10,
+                    "type": "scene",
+                    "text": "scene17",
+                    "sceneId": "scene17"
+                }
+                
+            ]
+        },
+        "scene17": {
+            "type": "equirectangular",
+            "panorama": "expo2024/tzuchi17.jpg",
+            "title": "台灣醫療科技展_慈濟展區17",
+            "yaw":-175,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -130,
+                    "type": "scene",
+                    "text": "出展區 ",
+                    "sceneId": "scene1"
+                }
+                
+            ]
+
+    }
+}
+}

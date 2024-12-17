@@ -1,0 +1,27 @@
+/* 圖片樣式 */
+.hotspot-image {
+    width: 500px;                 /* 保持寬高比例 */
+    position: fixed;             /* 固定定位，保持在視窗中央 */
+    top: 50%;                    /* 垂直居中 */
+    left: 50%;                   /* 水平居中 */
+    transform: translate(-50%, -50%); /* 讓圖片的中心點對齊視窗的中心 */
+    z-index: 10;                 /* 確保圖片顯示在其他元素之上 */
+    box-shadow: 0px 4px 15px #1102744f; /* 添加陰影讓圖片更突出 */
+    border-radius: 8px;          /* 可選：添加圓角 */
+}
+
+/* 響應式設計：當螢幕寬度小於某個數值時，調整圖片的最大寬度 */
+@media (max-width: 400px) {
+    .hotspot-image {
+        max-width: 85%; /* 在手機上，將最大寬度設為90%螢幕寬度 */
+        z-index: -1;  /* 確保圖片顯示在熱點上方 */
+    }
+    }
+
+
+    /* 自定義熱點容器 */
+ .custom-info-hotspot .custom-yt-hotspot {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
